@@ -1,0 +1,6 @@
+{
+  "name": "Portofolio Personal",
+  "description": "Website portofolio personal yang modern, interaktif, dan responsif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
