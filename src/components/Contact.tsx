@@ -117,7 +117,7 @@ export default function Contact({ ownerEmail, onSendMessage }: ContactProps) {
                   </span>
                   <div>
                     <span className="block text-xs uppercase font-mono text-gray-500 font-bold">Lokasi Kerja</span>
-                    <span className="text-sm text-white font-medium">Jakarta Raya, Indonesia (WIB)</span>
+                    <span className="text-sm text-white font-medium">Surabaya, Indonesia (WIB)</span>
                   </div>
                 </div>
 
@@ -133,12 +133,7 @@ export default function Contact({ ownerEmail, onSendMessage }: ContactProps) {
               </div>
             </div>
 
-            {/* Quick Greeting */}
-            <div className="relative p-6 rounded-2xl bg-[#0e1424] border border-gray-800/80 text-left overflow-hidden">
-              <span className="absolute bottom-0 right-0 translate-x-4 translate-y-4 text-brand-500/5 select-none font-sans font-black text-7xl uppercase">HIRE</span>
-              <p className="text-xs font-mono font-medium text-brand-400 mb-2">⚡ KESEDIAAN JADWAL</p>
-              <p className="text-lg font-bold text-white tracking-tight">Tersedia untuk proyek freelance baru Q3 &amp; Q4 2026.</p>
-            </div>
+
           </div>
 
           {/* Form Panel */}
