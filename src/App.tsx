@@ -5,8 +5,6 @@ import About from './components/About';
 import Timeline from './components/Timeline';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import InboxModal from './components/InboxModal';
-import SettingsModal from './components/SettingsModal';
 import { defaultPortfolioData } from './defaultData';
 import { PortfolioData, ContactMessage } from './types';
 import { Sparkles, Heart } from 'lucide-react';
@@ -191,24 +189,7 @@ export default function App() {
         </div>
       </footer>
 
-      {/* Reactive Sandbox Config Modals overlay overlay */}
-      <SettingsModal
-        isOpen={isSettingsOpen}
-        onClose={() => setIsSettingsOpen(false)}
-        data={portfolioData}
-        onSave={handleSaveData}
-        onReset={handleResetData}
-      />
 
-      {/* Inbox message details modal */}
-      <InboxModal
-        isOpen={isInboxOpen}
-        onClose={() => setIsInboxOpen(false)}
-        messages={messages}
-        onToggleRead={handleToggleRead}
-        onDeleteMessage={handleDeleteMessage}
-        onClearAll={handleClearAllMessages}
-      />
 
     </div>
   );
